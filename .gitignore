@@ -1,6 +1,21 @@
-./idea
-*./imp
-.vscode/
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore .iml files (IntelliJ module files)
+*.iml
+
+# Ignore target directories (build outputs)
 **/target/
+
+# Ensure that .mvn and other important files are not ignored
+!.mvn/
 !.mvn/wrapper/maven-wrapper.jar
 
+# Ensure that the necessary files for each service are tracked
+!*/pom.xml
+!*/Dockerfile
+!*/mvnw
+!*/mvnw.cmd
+
+# Ignore other potential unnecessary files
+*.log
