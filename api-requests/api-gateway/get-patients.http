@@ -1,2 +1,3 @@
 //GET request to get all patients
 GET http://localhost:4004/api/patients
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2Njc3NDU5MiwiZXhwIjoxNzY2ODEwNTkyfQ.0UFanCWLafATjPaVOnyuIx9z2FmGdHlCbuJlVQCSIV6sAXAnAeSsIenCyVV3eL9J

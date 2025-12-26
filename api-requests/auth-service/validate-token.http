@@ -1,0 +1,3 @@
+#Get request to validate a token
+GET localhost:4005/validate
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2Njc3MTQ5NSwiZXhwIjoxNzY2ODA3NDk1fQ.OWhK1KWnKIyLWxRCYeXDE9YWrwSD0eEveX1UcbtP0UGaw0XY110yEkd8WBhUCX9O
